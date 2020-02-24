@@ -1261,12 +1261,12 @@ PrefabInstance:
     - target: {fileID: 7625554226143032848, guid: c8baa429a4f2e48598fca0fb08c5920a,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7625554226143032848, guid: c8baa429a4f2e48598fca0fb08c5920a,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 100
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 7625554226143032848, guid: c8baa429a4f2e48598fca0fb08c5920a,
         type: 3}
@@ -1302,11 +1302,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Panel
-      objectReference: {fileID: 0}
-    - target: {fileID: 7625554226143032854, guid: c8baa429a4f2e48598fca0fb08c5920a,
-        type: 3}
-      propertyPath: m_Constraints
-      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c8baa429a4f2e48598fca0fb08c5920a, type: 3}

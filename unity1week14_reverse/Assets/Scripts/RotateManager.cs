@@ -16,6 +16,7 @@ public class RotateManager : MonoBehaviour
 
     private void Start ()
     {
+        DOTween.Init();
         gravity = Physics2D.gravity;
     }
 
