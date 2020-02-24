@@ -1034,6 +1034,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 359949248}
     m_Modifications:
+    - target: {fileID: 896056360, guid: a5b2e64eae5a7425f8e4a7b55d4a564e, type: 3}
+      propertyPath: basePanel
+      value: 
+      objectReference: {fileID: 1041841383}
     - target: {fileID: 3839769731050280168, guid: a5b2e64eae5a7425f8e4a7b55d4a564e,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -1171,17 +1175,17 @@ PrefabInstance:
     - target: {fileID: 7625554226143032848, guid: c8baa429a4f2e48598fca0fb08c5920a,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7625554226143032848, guid: c8baa429a4f2e48598fca0fb08c5920a,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7625554226143032848, guid: c8baa429a4f2e48598fca0fb08c5920a,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 7625554226143032848, guid: c8baa429a4f2e48598fca0fb08c5920a,
         type: 3}

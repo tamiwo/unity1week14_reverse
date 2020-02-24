@@ -89,6 +89,7 @@ GameObject:
   - component: {fileID: 3839769731050280171}
   - component: {fileID: 3839769731050280170}
   - component: {fileID: 3839769731050280169}
+  - component: {fileID: 896056360}
   m_Layer: 5
   m_Name: ReverseButton
   m_TagString: Untagged
@@ -194,4 +195,28 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 3839769731050280170}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 896056360}
+        m_MethodName: Reverse
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &896056360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3839769731050280175}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2431a9080ab49402fa5ba83eef51da8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  basePanel: {fileID: 0}
