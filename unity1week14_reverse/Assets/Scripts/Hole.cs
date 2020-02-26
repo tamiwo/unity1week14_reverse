@@ -1,13 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 using DG.Tweening;
 
 public class Hole : MonoBehaviour
 {
 
     [SerializeField,Tag]
-    public string targetTag;
+    private string targetTag = default;
+    [SerializeField]
+    private UnityEvent onCupIn = new UnityEvent();
 
     void OnTriggerEnter2D ( Collider2D col )
     {
@@ -25,6 +28,7 @@ public class Hole : MonoBehaviour
         seq.Join(tf.DOLocalRotate(new Vector3(0,0,1080),3f).SetRelative());
         seq.Join(tf.DOScale(new Vector3(0,0,0),2f).OnComplete(()=>{
             Destroy(col.gameObject);
+            onCupIn.Invoke();
         }));
     }
 }
