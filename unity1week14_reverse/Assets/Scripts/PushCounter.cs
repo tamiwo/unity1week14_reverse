@@ -35,6 +35,13 @@ public class PushCounter : MonoBehaviour
     [SerializeField]
     private Text countText = default;
 
+
+    private void Start()
+    {
+        _totalCount.Load();
+        totalCountText.text = _totalCount.data.ToString();
+    }
+
     public void CountUp()
     {
         count++;
