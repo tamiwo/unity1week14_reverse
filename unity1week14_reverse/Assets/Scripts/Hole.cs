@@ -18,8 +18,9 @@ public class Hole : MonoBehaviour
         if ( col.tag != targetTag) return;
         col.tag = "Untagged";
 
-        Physics2D.gravity = Vector2.zero;
-        col.GetComponent<Rigidbody2D>().velocity = Vector2.zero;
+        var rb = col.GetComponent<Rigidbody2D>();
+        rb.velocity = Vector2.zero;
+        rb.gravityScale = 0f;
         var tf = col.transform;
         
 
