@@ -293,6 +293,7 @@ GameObject:
   - component: {fileID: 555983243}
   - component: {fileID: 555983241}
   - component: {fileID: 555983242}
+  - component: {fileID: 555983244}
   m_Layer: 5
   m_Name: StartButton
   m_TagString: Untagged
@@ -363,6 +364,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+      - m_Target: {fileID: 555983244}
+        m_MethodName: ClearTotalCount
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
       - m_Target: {fileID: 555983242}
         m_MethodName: LoadScene
         m_Mode: 1
@@ -396,6 +408,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 555983239}
   m_CullTransparentMesh: 0
+--- !u!114 &555983244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 555983239}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af85fd180212dbe4397bd3b92ac0afef, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _totalCount: {fileID: 11400000, guid: 9ea3dd9c86c1e554e9520247efd177fc, type: 2}
+  totalCountText: {fileID: 0}
+  countText: {fileID: 0}
 --- !u!1 &616923544
 GameObject:
   m_ObjectHideFlags: 0

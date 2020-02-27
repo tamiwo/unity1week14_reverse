@@ -39,13 +39,20 @@ public class PushCounter : MonoBehaviour
     private void Start()
     {
         _totalCount.Load();
-        totalCountText.text = _totalCount.data.ToString();
+        if(totalCountText != null) {
+            totalCountText.text = _totalCount.data.ToString();
+        }
     }
 
     public void CountUp()
     {
         count++;
         totalCount++;
+    }
+
+    public void ClearTotalCount()
+    {
+        _totalCount.data = 0;
     }
 }
 
