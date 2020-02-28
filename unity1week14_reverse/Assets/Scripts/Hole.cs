@@ -18,6 +18,8 @@ public class Hole : MonoBehaviour
         if ( col.tag != targetTag) return;
         col.tag = "Untagged";
 
+        col.transform.SetParent(transform,false);
+
         var rb = col.GetComponent<Rigidbody2D>();
         rb.velocity = Vector2.zero;
         rb.gravityScale = 0f;
