@@ -414,12 +414,12 @@ PrefabInstance:
     - target: {fileID: 5954017437358035262, guid: d75f64336b65640e5af4600d8a00264e,
         type: 3}
       propertyPath: sceneName
-      value: ResultScene
+      value: Result
       objectReference: {fileID: 0}
     - target: {fileID: 5954017437358035262, guid: d75f64336b65640e5af4600d8a00264e,
         type: 3}
       propertyPath: timeToFade
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5954017437358035263, guid: d75f64336b65640e5af4600d8a00264e,
         type: 3}
@@ -595,7 +595,7 @@ PrefabInstance:
     - target: {fileID: 3839769730439997092, guid: a5b2e64eae5a7425f8e4a7b55d4a564e,
         type: 3}
       propertyPath: m_Text
-      value: NEXT
+      value: Result
       objectReference: {fileID: 0}
     - target: {fileID: 3839769731050280168, guid: a5b2e64eae5a7425f8e4a7b55d4a564e,
         type: 3}
@@ -787,6 +787,12 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1842238009}
     m_Modifications:
+    - target: {fileID: 7850613460901992973, guid: c20c34cbf933ad241b617a6dd5d6b66a,
+        type: 3}
+      propertyPath: _count
+      value: 
+      objectReference: {fileID: 11400000, guid: 0d0b67b5a071740c99329f0fbbbb723b,
+        type: 2}
     - target: {fileID: 7850613460901992974, guid: c20c34cbf933ad241b617a6dd5d6b66a,
         type: 3}
       propertyPath: m_LocalPosition.x

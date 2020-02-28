@@ -9,14 +9,15 @@ public class PushCounter : MonoBehaviour
     [SerializeField]
     private SaveDataInt _totalCount = default;
 
-    private int _count = 0;
+    [SerializeField]
+    private SaveDataInt _count = default;
     private int count
     {
         get{
-            return _count;
+            return _count.data;
         }
         set{
-            _count = value;
+            _count.data = value;
             countText.text = value.ToString();
         }
     }
