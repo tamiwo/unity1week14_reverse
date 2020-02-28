@@ -1216,6 +1216,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1747072795}
     m_Modifications:
+    - target: {fileID: 2410177113859962967, guid: 4306448d015ea4cd1abda554691f3671,
+        type: 3}
+      propertyPath: m_Text
+      value: "Hole \uFF12"
+      objectReference: {fileID: 0}
     - target: {fileID: 6830194661758105555, guid: 4306448d015ea4cd1abda554691f3671,
         type: 3}
       propertyPath: m_Name
