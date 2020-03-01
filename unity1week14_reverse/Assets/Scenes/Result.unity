@@ -1502,6 +1502,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13be08c3906814b59acb67e0694315bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  score: {fileID: 11400000, guid: 9ea3dd9c86c1e554e9520247efd177fc, type: 2}
   captionLabel: {fileID: 26964922}
   scoreLabel: {fileID: 1100305042}
   highScoreLabel: {fileID: 1362824642}
@@ -2852,7 +2853,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1603237262}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 331b8e90293824180b0cff10b47cff7d, type: 3}
   m_Name: 
